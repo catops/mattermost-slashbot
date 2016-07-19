@@ -1,0 +1,30 @@
+{
+  "name": "mattermost-slashbot",
+  "description": "A Hubot script that parses slash commands from Mattermost, forwards them to the bot, then formats the bot response to be slash command friendly.",
+  "version": "1.0.0",
+  "author": "Wyatt Pearsall <wyatt.pearsall@cfpb.gov>",
+  "license": "CC0",
+  "keywords": [
+    "hubot",
+    "hubot-scripts",
+    "mattermost",
+    "slash commands"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/catops/mattermost-slashbot.git"
+  },
+  "bugs": {
+    "url": "https://github.com/catops/mattermost-slashbot/issues"
+  },
+  "dependencies": {
+    "body-parser": "^1.15.1",
+    "coffee-script": "~1.10"
+  },
+  "devDependencies": {
+    "hubot": "cfpb/hubot",
+    "hubot-test-helper": "^1.4.4",
+    "matchdep": "~1.0.1"
+  },
+  "main": "index.coffee"
+}
