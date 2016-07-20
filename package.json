@@ -1,7 +1,7 @@
 {
   "name": "mattermost-slashbot",
   "description": "A Hubot script that parses slash commands from Mattermost, forwards them to the bot, then formats the bot response to be slash command friendly.",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "author": "Wyatt Pearsall <wyatt.pearsall@cfpb.gov>",
   "license": "CC0",
   "keywords": [
